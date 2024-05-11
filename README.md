@@ -30,18 +30,15 @@ End the program.
 #Register Number: 212223230108
 ```
 ```
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+with open ("text.txt") as fp:
+  with open("file.txt","w") as fp1:
+    line= fp.read()
+    fp1.write(line)
 ```
 
 ### OUTPUT:
-![image](https://github.com/KrishnaPrasad148/Copy-File/assets/147332763/e3b3346d-0baf-45ac-9762-46d1383af279)
+![image](https://github.com/KrishnaPrasad148/Copy-File/assets/147332763/85d3a65c-ec03-4de9-8a0c-3a18f49acbf0)
 
-![329156316-f0a48c59-392e-4aa2-be43-326dca874b38](https://github.com/KrishnaPrasad148/Copy-File/assets/147332763/1ed58dda-c1f3-4d17-aa32-57242880a5e5)
 
 
 
