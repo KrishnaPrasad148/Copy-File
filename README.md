@@ -6,19 +6,21 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-Load the CSV into a DataFrame.
+First open the required file form which we need to copy the text.
+
+Again using the with keyword to open the empty file.
 
 ### Step 2:
-Print the number of contents to be displayed using df.head().
+Using keyword "with" to open the requied file.
  
 ### Step 3: 
-The number of rows returned is defined in Pandas option settings.
+Again using the with keyword to open the empty file.
 
 ### Step 4:  
-Check your system's maximum column with the pd.options.display.max_column statement.
+The empty file is open by using 'W' which is used to write only.
 
 ### Step 5: 
-Increase the maximum number of rows to display the entire DataFrame
+The four function is used to take each line from the main file.
 
 ### Step 6: 
 End the program.
